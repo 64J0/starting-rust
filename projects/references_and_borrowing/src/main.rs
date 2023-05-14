@@ -20,12 +20,12 @@ fn main() {
     println!("The length of '{}' was {}", s1, len);
 }
 
-// Does not change the value of s
+// Does not change the value of s.
 fn calculate_length(s: &String) -> usize {
     s.len()
 }
 
-// Try to change the value of the reference some_string
+// Try to change the value of the reference some_string.
 //
 // Just as variables are immutable by default, so are references. We're not
 // allowed to modify something we have a reference to.
